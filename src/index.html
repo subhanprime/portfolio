@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/dist/output.css" />
+</head>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<body class="font-Montserrat">
+  <div class="w-full h-16 bg-gray-900 flex justify-center z-50">
+    <div class="w-full md:px-0 md:w-10/12 h-full flex justify-between items-center">
+      <span class="logo">Passinater</span>
+      <div class="flex items-center">
+        <span class="navi about">About Me</span>
+        <span class="cursor-pointer skillsN hidden md:block text-slate-50 tracking-wider  hover:text-lg hover:text-amber-400  mx-2 w-16">Skills</span>
+        <span class="navi" id="expN">Experience</span>
+        <span class="navi" id="eduN">Education</span>
+        <!-- <span class="navi">Portfolio</span> -->
+        <span class="hireme hidden md:block">Hire Me</span>
+        <span id="#list-logo" class="cursor-pointer md:hidden mx-2 font-black text-4xl text-white" onclick="myFunction()">
+          <ion-icon name="list-outline"></ion-icon>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="hidden md:hidden transition-all duration-500" id="navbar">
+    <span class="nav-items mt-16" >Hire me</span>
+    <span class="nav-items" id="n1">About Me</span>
+    <span class="nav-items" id="n2">Skills</span>
+    <!-- <span class="nav-items">About Me</span> -->
+    <span class="nav-items" id="n3">Education</span>
+    <span class="nav-items" id="n4">Experience</span>
+  </div>
+  <div class="hero-div-outer">
+    <div class="little-hero">
+      <div class="heroleft mt-16 sm:mt-0">
+        <div class="w-full lg:w-10/12">
+          <p class="font-semibold text-2xl mb-2 text-slate-50 pt-3 sm:pt-0">
+            Hello
+          </p>
+          <h1 class="text-4xl lg:text-5xl xl:text-6xl font-bold text-amber-400">
+            I'm <span class="">Subhan Ali</span>
+          </h1>
+          <p class="text-gray-50 font-semibold text-2xl mt-3">
+            Web and Mobile Application Developer
+          </p>
+          <br />
+          <button
+            class="my-4 outline outline-amber-400 py-2 px-4 rounded flex-none text-amber-400 hover:bg-amber-400 transition duration-500 hover:text-white">
+            Download CV
+          </button>
+        </div>
+      </div>
+      <div class="heroright">
+        <img class="object-cover" src="u6.svg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="h-full w-full bg-gray-800 text-white py-7" id="aboutSec">
+    <div class="w-full flex justify-center">
+      <div class="w-10/12 h-full flex items-start flex-col md:flex-row">
+        <div class="relative w-full sm:w-4/12 flex justify-center p-4 min-w-max my-5">
+          <img class="h-72 w-8/12 sm:w-9/12 xl:w-8-12 rounded z-10 object-cover" src="./s2.png" alt="">
+          <div
+            class="rounded absolute -translate-x-4 h-72 top-7 w-7/12 sm:w-8/12 -z-1 outline outline-8 outline-amber-500">
+          </div>
+        </div>
+        <div class="w-full md:w-8/12 h-full flex justify-start items-end p-3">
+          <div class="h-full w-full mt-7">
+            <div class="">
+              <span
+                class="text-2xl font-bold underline decoration-amber-400 decoration-4 underline-offset-8">Abo</span><span
+                class="text-2xl font-bold">ut Me</span></span>
+
+            </div>
+            <p class="my-3 text-md">
+              I'm a web developer fluent in CSS and JavaScript. I'm passionate about building creative and interactive web applications 
+              and I want to solve challenging problems and bring value to people.
+               I enjoy learning new technologies and continuously improving myself..
+            </p>
+            <p class="">
+              Skilled in Bootstrap all versions, Tailwindcss, Regular Expression, Figma, React JS 
+              ,Less/SASS CSS3 and Product Design.
+              Strong engineering professional graduated from Bachelor's degree Computer Science.
+            </p>
+            <button class="hireme-1">Hire
+              Me</button>
+            <button
+              class="border border-amber-400 rounded py-2 px-4 mr-2 my-2 hover:bg-amber-400 hover:text-white">Download
+              CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-slate-900 text-white flex justify-center py-6">
+    <div class="w-10/12 flex flex-col justify-start items-center">
+      <h1 class="text-4xl p-3 underline decoration-amber-400 underline-offset-4">Let us build a website with your ideas
+      </h1>
+      <p>Get website developer to create your marketing website and Portfolio faster</p>
+      <div class="w-full mt-2 grid gap-3 grid-cols-1 grid-rows-2 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex ">
+              <ion-icon name="basket-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">E-comerece Website</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+        <!-- ///////////////// -->
+        <div class=" bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex ">
+              <ion-icon name="accessibility-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">Portfolio Website</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+        <div class=" bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex  ">
+              <ion-icon name="wallet-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">Marketing Website</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+        <div class=" bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex ">
+              <ion-icon name="game-controller-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">Gaming Website</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+
+        <div class=" bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex ">
+              <ion-icon name="apps-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">Mobile Applications</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+
+        <div class=" bg-slate-700 rounded h-60 flex flex-col justify-center items-center">
+          <div
+            class="mb-3 h-14 w-14 bg-slate-700 rounded shadow shadow-gray-800 flex justify-center items-center text-4xl">
+            <span class="text-amber-400 flex ">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </span>
+          </div>
+          <h1 class="text-2xl font-medium">Bussines Website</h1>
+          <p class="text-sm font-thin mt-2">Engage a developer to Create a</p>
+          <p class="text-sm font-thin">customize e-commerece site at low cost</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-zinc-600 flex justify-center items-center py-6 flex-col" id="skillsSec">
+    <div class="mb-4 text-3xl text-white w-10/12 underline underline-offset-8 decoration-amber-400">
+      <h1>Skills</h1>
+    </div>
+    <div class="w-10/12 flex flex-wrap justify-center">
+      <div class="skill">
+        <h1 class="text-3xl">javascript</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl shadow-sm">HTTML 5</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">CSS3</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Saas</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Bootstrap</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Tailwindcss</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">GIT</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Linux</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">React JS</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Node JS</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Mongo DB</h1>
+      </div>
+      <div class="skill">
+        <h1 class="text-3xl">Figma</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class=" w-full bg-gray-800 flex justify-center items-center py-6">
+    <div class="w-10/12 flex h-full flex-col sm:flex-row">
+      <div class=" w-full h-full" id="eduSec">
+        <h1 class="text-white text-3xl underline underline-offset-8 decoration-amber-400 decoration-4">Education</h1>
+        <div class="w-full h-full flex flex-col mt-6">
+          <div class="border-slate-100 border rounded w-11/12 my-2 pt-2">
+            <h2 class="text-amber-400 text-2xl font-bold px-2">I.C.S</h2>
+            <p class="px-4 py-2 text-white">Intermediate from Punjab Education Board.</p>
+          </div>
+          <div class="border border-slate-100 rounded w-11/12 my-2">
+            <h2 class="text-amber-400 text-2xl font-bold px-2 pt-2">BS H (CS)</h2>
+            <p class="px-4 py-2 text-white">Govt Post graduate Science College Samnabad Faisalabsd.</p>
+          </div>
+          <div class="border border-slate-100 rounded w-11/12 my-2">
+            <h2 class="text-amber-400 text-2xl font-bold px-2 pt-2">Web Development</h2>
+            <p class="px-4 py-2 text-white">saylani welfare trust lal mil chock Faisalabsd.</p>
+          </div>
+        </div>
+      </div>
+      <!-- ///////////////////////////// -->
+      <div class="w-full h-full" id="expIn">
+        <div class=" w-full h-full">
+          <h1 class="text-white text-3xl underline underline-offset-8 decoration-amber-400 decoration-4">Experience</h1>
+          <div class="w-full h-full flex flex-col mt-6">
+            <div class="border border-slate-100 rounded w-11/12 my-2 pt-2">
+              <h2 class="text-amber-400 text-2xl font-bold px-2">Softrix Technologies</h2>
+              <p class="px-4 py-2 text-white">Current working here from Aug-2021 as a Frontend Developer.</p>
+            </div>
+            <div class="border border-slate-100 rounded w-11/12 my-2">
+              <h2 class="text-amber-400 text-2xl font-bold px-2 pt-2">Z-Tech</h2>
+              <p class="px-4 py-2 text-white">Jan-2021 to Aug-2021 as a Frontend developer.</p>
+            </div>
+            <div class="border border-slate-100 rounded w-11/12 my-2">
+              <h2 class="text-amber-400 text-2xl font-bold px-2 pt-2">Freelancer</h2>
+              <p class="px-4 py-2 text-white">I also Complete diffrent Project as a freelancer at multiple times.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //////////////////////////// -->
+  <div class="bg-zinc-600 w-full h-full flex justify-center py-6">
+    <div class="w-full sm:w-10/12 flex  justify-center items-center flex-col sm:flex-row">
+      <div class="w-full sm:w-1/2 h-full">
+        <img src="form.svg" class="object-cover" alt="">
+      </div>
+      <div class="px-2 w-full sm:w-1/2 h-full flex items-center justify-center flex-col text-white">
+          <span class="text-2xl w-10/12 m-4">Full Name :</span>
+        <div class="flex justify-center w-full"><input type="text" class="w-10/12 h-14 border-none rounded"/></div>
+        <span class="text-2xl w-10/12 m-4">Email :</span>
+        <div class="flex justify-center w-full"><input type="email" class="w-10/12 h-14 border-none rounded"/></div>
+        <span class="text-2xl m-4 w-10/12">Message</span>
+        <div class="flex justify-center w-full"><textarea class="w-10/12 h-24 border-none rounded"></textarea></div>
+        <button class="m-4 bg-amber-400 px-8 py-3 rounded text-2xl tracking-wide">Send me</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-inner">
+     <div>
+      <span class="text-amber-400 ">Email:&nbsp;</span>
+      <span>subhan25902@gmail.com</span>
+     </div>
+      <div class="icon-contain"> 
+        <span class="footer-icon fb-icon"><ion-icon  name="logo-facebook"></ion-icon></span>
+        <span class="footer-icon insta-icon"><ion-icon  name="logo-instagram"></ion-icon></span>
+        <span class="footer-icon github-icon"><ion-icon  name="logo-github"></ion-icon></span>
+      </div>
+      <div>
+
+      <span class="text-amber-400">Contact Us:&nbsp;</span>
+      <span>0304-2767419</span>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- 
+ -->
